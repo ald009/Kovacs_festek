@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: rgb(156, 216, 226);
+    background-color: rgba(78, 68, 214);
     background-image: url(kepek/blue-paint-can.jpg);
     background-size: 100%;
     position: relative;
@@ -11,17 +11,24 @@ body{
 }
 ::-webkit-scrollbar{
     background: transparent;
-    min-width: 20px;
-    max-width: 40px;
+    min-width: 14px;
+    max-width: 20px;
 }
-::-webkit-scrollbar-button{
-    width: 20px;
-    background: black;
+
+::-webkit-scrollbar-thumb{
+    background:rgb(165, 160, 231);
+    border-radius: 5px;
+    border: none;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:rgb(169, 164, 231);
+    border: white 1px solid;
 }
 
 header{
     display: block;
-    background-color: rgb(114, 195, 209);
+    background-color: rgba(78, 68, 214, 0.9);
     width: 100%;
     margin: 0px;
     border-bottom: black 2px solid;
@@ -31,18 +38,18 @@ header{
 }
 
 header h2{
+    color: white;
 text-align: left;
-font-size: 40px;
+font-size: 45px;
 margin-left: 2%;
-text-shadow: white 5px 5px 10px;
+text-shadow: black 5px 5px 10px;
 }
 
 header img{
     float: right;
-    width: 120px;
+    width: 130px;
     margin-right: 10%;
-    box-shadow: 5px 5px 5px black;
-    border-radius: 50px;
+
     
 }
 
@@ -57,7 +64,7 @@ header img{
 }
 
 .nav td{
-    border: black 1px dotted;
+    border: none;
     padding: 10px;
     margin: 0;
     background-color: rgb(29, 28, 28,0.5);
@@ -71,11 +78,11 @@ td a:any-link{
 }
 
 .nav td:hover{
-    background-color: rgb(29, 204, 235) ;
+    background-color: rgb(165, 160, 231);
 }
 
 .nav .active{
-    background-color:rgb(64, 184, 206) ;
+    background-color:rgb(128, 120, 243) ;
 }
 
 
@@ -83,9 +90,9 @@ article{
     width: 50%;
     margin: 5% auto 2% 4%;
     max-width: 48%;
-    background-color: rgb(116, 114, 114, 0.5);
-    border-radius: 10px;
-    color:white;
+    background-color: rgba(88, 86, 116, 0.6);
+    border-radius: 20px;
+    color:rgb(225, 224, 250);
     padding: 20px;
     
 }
@@ -113,15 +120,24 @@ form label{
     padding-left: 15px;
 }
 form input{
-    background-color: rgb(130, 197, 209);
+    background-color: rgb(151, 146, 212);
 }
 
 footer{
-    background-color: rgb(182, 182, 182);
+    color:white;
+    background-color: rgba(88, 86, 116, 0.8);
     margin: 0;
     min-height: 85px;
     margin-top: auto;
     text-align: center;
 }
 
+.map{
+    margin: 10% 0 10% 4%;
+    box-shadow: 5px 5px 20px black;
+    border: none;
+    border-radius: 20px;
+    width: 50%;
+    height: 500px;
+}
 
