@@ -7,6 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Arial Narrow Bold', sans-serif;
+    
     min-height: 130vh;
 }
 ::-webkit-scrollbar{
@@ -133,7 +134,7 @@ footer{
 }
 
 .map{
-    margin: 10% 0 10% 4%;
+    margin: 1% 0 1% 4%;
     box-shadow: 5px 5px 20px black;
     border: none;
     border-radius: 20px;
@@ -141,3 +142,16 @@ footer{
     height: 500px;
 }
 
+.ido{
+    margin: 1% 0 1% 4%;
+    box-shadow: 5px 5px 20px black;
+    border: none;
+    border-radius: 20px;
+    width: 20%;
+    height: 400px;
+}
+.ceg{
+    text-shadow: 5px 5px 10px black;
+    color: white;
+    margin: 4% 0 2% 6%;
+}
